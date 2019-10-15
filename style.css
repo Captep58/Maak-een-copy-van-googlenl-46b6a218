@@ -1,27 +1,41 @@
 .fotog {
 	position: absolute;
-	top: 230px;
-	left: 570px;
+	top: 30%;
+	left: 40%;
 
 }
+
+h4 {
+	position: absolute;
+	bottom: 32%;
+	right: 47%;
+	font-size: 14px;
+	font-family: calibri light;
+}
+body {
+	background-color: white;
+}
+
 input {
 	padding: 12px 20px;
 	border-radius:30px;
 	position: relative;
-	right: -60px;
+	right: -382px;
 	top:350px;
 	width: 40%;
 }
+
 button {
-	position: relative;
-	border-radius: 10px;
-	top:410px;
-	left: -400px;
-	padding: 10px;
+	position: absolute;
+	border-radius: 10%;
+	top: 55%;
+	left: 40%;
+	padding: 1%;
 	background-color: gainsboro;
 	cursor: pointer;
 
 }
+
 h5 {
 	position: fixed;
 	bottom: 92%;
@@ -31,11 +45,15 @@ h5 {
 
 span {
 	color: grey;
-font-family: calibri light;
+	font-family: calibri light;
 }
+
 #rechts {
-	left: -380px;
+	position: fixed;
+	top: 55%;
+	left: 50%;
 }
+
 .inloggen {
 	position: fixed;
 	top: 1%;
@@ -44,6 +62,7 @@ font-family: calibri light;
 	background-color: rgb(0, 140, 255);
 	border-style: none; 
 }
+
 .rechthoek {
 	position: fixed;
 	height: 40px;
@@ -52,6 +71,7 @@ font-family: calibri light;
 	background-color: whitesmoke;
 
 }
+
 .twee {
 	position: absolute;
 	height: 40px;
@@ -70,46 +90,70 @@ font-family: calibri light;
 	
 
 }
+
 .adverteren {
 	position: fixed;
-	bottom: 2%;
+	top: 96%;
 	left: 1%;
 
 }
+
 .bedrijf {
 	position:fixed;
-	bottom: 2%;
-	left: 7%;
+	top: 96%;
+	left: 8.5%;
 }
+
 .over {
 	position: fixed;
-	bottom: 2%;
-	left: 12%;
+	top: 96%;
+	left: 14%;
 	
 }
+
 .Hoe {
 	position: fixed;
-	bottom: 2%;
-	left: 16%;
+	top: 96%;
+	left: 18%;
 	
 }
+
 .privacy {
 	position: fixed;
-	bottom: 7%;
-	right: 17%;
+	top: 96%;
+	right: 20%;
 }
+
 .voorwaarden {
 	position: fixed;
-	bottom: 7%;
-	right: 9%;
+	top: 96%;
+	right: 10%;
 
 }
+
 .instellingen {
 	position: fixed;
-	bottom: 7%;
+	top: 96%;
 	right: 2%;
 
 }
 a:link {
 	text-decoration: none;
+}
+.zoeken2 {
+	padding: 12px 20px;
+	border-radius:30px;
+	position: fixed;
+	top: 47%;
+	left: 30%;
+	border-style: solid;
+	width: 35%;
+}
+.recht {
+	position: fixed;
+	height: 40px;
+	width: 630px;
+	bottom: 47%;
+	right: 32%;
+	background-color: whitesmoke;
 }
